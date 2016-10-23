@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Информация</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Карта штата</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Фото и видео</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="main-heading">Sedona</h1>
+    </header>
+
+    <section class="filter">
+      <section class="filter__inputs">
+        <label for="amenities">Инфраструктура:</label>
+        <input id="amenities" type="checkbox" name="extras" value="pool">Бассейн
+        <input id="amenities" type="checkbox" name="extras" value="parking">Парковка
+        <input id="amenities" type="checkbox" name="extras" value="wifi">Wi-Fi
+
+        <label for="property-type">Тип жилья:</label>
+        <input id="property-type" type="checkbox" name="amenities" value="hotel">Гостиница
+        <input id="property-type" type="checkbox" name="amenities" value="motel">Мотель
+        <input id="property-type" type="checkbox" name="amenities" value="appartement">Апартаменты
+
+        <label for="price">Стоимость в сутки(Р):</label>
+        от 0 до 3000
+        <input id="price" type="range">
+
+        <button type="sumbit">Показать</button>
+      </section>
+      <section class="filter__results">
+        <p>Найдено: 3</p>
+        <ul class="sort">
+          Сортировка:
+          <li class="sort__item">По цене:</li>
+          <li class="sort__item">По типу:</li>
+          <li class="sort__item">По рейтингу:</li>
+        </ul>
+        <div class="up-down"></div>
+
+        <ul class="filter__results-list">
+          <li class="filter__resuts-item">
+            <div class="hotel-preview">
+              <img src="" alt="">
+              <h3 class="hotel-name">Amara Resort :& Spa</h3>
+              <p class="property-type">Гостиница</p>
+              <p class="price">от 3500 Р.</p>
+              <a href="#">Подробнее</a>
+              <a href="#">Забронировать</a>
+            </div>
+            <div class="hotel-rating">
+              <div class="stars-rating"></div>
+              <div class="number-rating">Рейтинг: 8,5</div>
+            </div>
+          </li>
+          <li class="filter__resuts-item">
+            <div class="hotel-preview">
+              <img src="" alt="">
+              <h3 class="hotel-name">Desert Quail Inn</h3>
+              <p class="property-type">Мотель</p>
+              <p class="price">от 2000 Р.</p>
+              <a href="#">Подробнее</a>
+              <a href="#">Забронировать</a>
+            </div>
+            <div class="hotel-rating">
+              <div class="stars-rating"></div>
+              <div class="number-rating">Рейтинг: 8,9</div>
+            </div>
+          </li>
+          <li class="filter__resuts-item">
+            <div class="hotel-preview">
+              <img src="" alt="">
+              <h3 class="hotel-name">Villas at Poco Diablo</h3>
+              <p class="property-type">Апартаменты</p>
+              <p class="price">от 4000 Р.</p>
+              <a href="#">Подробнее</a>
+              <a href="#">Забронировать</a>
+            </div>
+            <div class="hotel-rating">
+              <div class="stars-rating"></div>
+              <div class="number-rating">Рейтинг: 9,2</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </section>
+
+
+
+
+
+    <footer class="footer">
+      <a href="#" class="footer__link">#visitsedona</a>
+      <div class="social">
+        <a href="#" class="social__btn social__btn--tw"></a>
+        <a href="#" class="social__btn social__btn--fb"></a>
+        <a href="#" class="social__btn social__btn--yt"></a>
+      </div>
+      <img class="footer__logo" src="" alt="Website by HTML Academy">
+    </footer>
+
+
+  </body>
+</html>
