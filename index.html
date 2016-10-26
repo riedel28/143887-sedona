@@ -3,147 +3,186 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona | Главная</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <nav class="main-nav">
-        <img class="header__logo" src="http://placehold.it/140x70" alt="Sedona">
+    <div class="container">
+      <header class="header">
+      <nav class="main-nav clearfix">
+        <img class="header__logo" src="img/header_logo.png" alt="Sedona" width="138" height="70">
+
         <ul class="main-nav__list">
           <li class="main-nav__item">
             <a href="" class="main-nav__link">Информация</a>
           </li>
           <li class="main-nav__item">
-            <a href="" class="main-nav__link">Карта штата</a>
-          </li>
-          <li class="main-nav__item">
             <a href="" class="main-nav__link">Фото и видео</a>
           </li>
+
           <li class="main-nav__item">
             <a href="" class="main-nav__link">Гостиницы</a>
           </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Карта штата</a>
+          </li>
         </ul>
       </nav>
-      <h1 class="main-heading">Sedona</h1>
-      <img src="http://placehold.it/1200x510">
+      <div class="intro">
+        <img src="img/header_bg.jpg">
+
+        <h1 class="main-heading"></h1>
+      </div>
+
     </header>
-    <section class="advantages">
-      <h2 class="advantages__title">
-        Седона - небольшой городок в Аризоне, заслуживающий большего!
+    <section class="features clearfix">
+      <h2 class="features__title">
+        Седона - небольшой городок в Аризоне,<br> заслуживающий большего!
       </h2>
-      <p class="advantages__subtitle">
+      <p class="features__subtitle">
         Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
       </p>
 
-      <ul class="advantages__list">
-        <li class="advantages__item">
-          <h3 class="advantages__item-heading">
-            Настоящий городок
-          </h3>
-          <p class="advantages__item-subtitle">
-            Седона - не аттракцион для туристов, там течет своя жизнь
-          </p>
-          <img src="http://placehold.it/800x255">
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-heading">
+      <section class="features__item features__item--town">
+          <div class="features__descr features-descr--blue">
+            <h3 class="features__item-heading">
+              Настоящий городок
+            </h3>
+            <span class="features__number">— №1 —</span>
+            <p class="features__item-subtitle">
+              Седона - не аттракцион для туристов, там течет своя жизнь
+            </p>
+          </div>
+          <div class="features__img">
+            <img class="advatages__img" src="img/town.jpg" alt="Sedona Town"  width="800" height="255">
+
+          </div>
+        </section>
+        <section class="features__item features__item--living">
+          <h3 class="features__item-heading">
             Жилье
           </h3>
-          <p class="advantages__item-subtitle">
+          <p class="features__item-subtitle">
             Рекомендуем пожить в настоящем мотеле, все как в кино!
           </p>
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-heading">
+        </section>
+        <section class="features__item features__item--food">
+          <h3 class="features__item-heading">
             Еда
           </h3>
-          <p class="advantages__item-subtitle">
+          <p class="features__item-subtitle">
             Всегда заказывайте фирменный бургер, вы не разочаруетесь!
           </p>
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-heading">
+        </section>
+        <section class="features__item features__item--souvenirs">
+          <h3 class="features__item-heading">
             Сувениры
           </h3>
-          <p class="advantages__item-subtitle">
+          <p class="features__item-subtitle">
             Не только китайского, но и местного производства!
           </p>
-        </li>
-        <li class="advantages__item">
-          <img src="http://placehold.it/800x255">
-          <h3 class="advantages__item-heading">
+        </section>
+        <section class="features__item">
+          <div class="features__img">
+            <img class="advatages__img" src="img/devils_bridge.jpg" alt="Devil's Bridge"  width="800" height="255">
+
+          </div>
+          <div class="features__descr">
+
+          <h3 class="features__item-heading">
             Там есть мост дьявола!
           </h3>
-          <p class="advantages__item-subtitle">
+          <span class="features__number">— №2 —</span>
+          <p class="features__item-subtitle">
             Да, по нему можно пройти! Если конечно осмелитесь
           </p>
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-heading">
+        </div>
+        </section>
+        <section class="features__item features__item--area">
+          <h3 class="features__item-heading">
             Небольшая площадь
           </h3>
-          <p class="advantages__item-subtitle">
+          <span class="features__number">— №3 —</span>
+          <p class="features__item-subtitle">
             Все достопримечательности находятся очень близко
           </p>
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-heading">
+        </section>
+        <section class="features__item features__item--road">
+          <h3 class="features__item-heading">
             Красивая дорога
           </h3>
-          <p class="advantages__item-subtitle">
+          <span class="features__number">— №4 —</span>
+          <p class="features__item-subtitle">
             Ехать в Седону из Лас-Вегаса совсем не скучно!
           </p>
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-heading">
+        </section>
+        <section class="features__item features__item--tourists">
+          <h3 class="features__item-heading">
             Мало туристов
           </h3>
-          <p class="advantages__item-subtitle">
+          <span class="features__number">— №5 —</span>
+          <p class="features__item-subtitle">
             Большинство едет в Гранд Каньон и толпится там
           </p>
-        </li>
-      </ul>
+        </section>
+
     </section>
     <section class="booking">
       <h2 class="booking__title">
         Заинтересовались?
       </h2>
       <p class="booking__subtitle">
-        Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+        Укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
 
       <section class="booking-window">
-        <form class="booking__form" action="GET">
-          <h3 class="booking__form-heading">Поиск гостиниц в Седоне</h3>
+        <h3 class="booking-form__heading">Поиск гостиницы в Седоне</h3>
 
-          <label for="checkin">Дата заезда:</label>
-          <input id="checkin" type="date">
+        <form class="booking-form" action="GET">
 
-          <label for="checkout">Дата выезда:</label>
-          <input id="checkout" type="date">
+          <div class="booking-form__checkin-input">
+            <label for="checkin" class="booking-form__checkin-label">Дата заезда:</label>
+            <input id="checkin" type="date" class="booking-form__checkin-field">
+          </div>
 
-          <label for="adults">Взрослые:</label>
-          <input id="adults">
+            <label for="checkout">Дата выезда:</label>
+            <label for="adults">Взрослые:</label>
+            <label for="children">Дети:</label>
 
-          <label for="children">Взрослые:</label>
-          <input id="children">
 
-          <button type="submit">Найти</button>
+
+
+            <input id="checkout" type="date" class="booking-form__checkout-field">
+
+            <input id="adults">
+
+            <input id="children">
+
+
+
+          <button type="submit" class="booking-form__button">Найти</button>
+
         </form>
       </section>
     </section><!--booking-->
     <section class="map">
-      <img src="http://placehold.it/1200x470">
+      <img src="img/map.jpg">
+      <footer class="footer">
+        <a href="#" class="footer__link" target="_blank">#visitsedona</a>
+        <div class="social">
+          <a href="#" class="social__btn social__btn--tw">tw</a>
+          <a href="#" class="social__btn social__btn--fb">fb</a>
+          <a href="#" class="social__btn social__btn--yt">yt</a>
+        </div>
+        <div class="footer__logo">
+          <span>Website by</span>
+          <img class="logo" src="http://placehold.it/115x42" alt="Website by HTML Academy">
+        </div>
+      </footer>
+
     </section>
-    <footer class="footer">
-      <a href="#" class="footer__link">#visitsedona</a>
-      <div class="social">
-        <a href="#" class="social__btn social__btn--tw"></a>
-        <a href="#" class="social__btn social__btn--fb"></a>
-        <a href="#" class="social__btn social__btn--yt"></a>
-      </div>
-      <img class="footer__logo" src="http://placehold.it/240x70" alt="Website by HTML Academy">
-    </footer>
 
-
+  </div>
   </body>
 </html>
