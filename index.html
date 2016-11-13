@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Sedona | Главная</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-      <nav class="main-nav clearfix">
-        <img class="header__logo" src="img/header_logo.png" alt="Sedona" width="138" height="70">
 
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="" class="main-nav__link">Информация</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="" class="main-nav__link">Фото и видео</a>
-          </li>
+<head>
+  <meta charset="utf-8">
+  <title>Sedona | Главная</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
-          <li class="main-nav__item">
-            <a href="" class="main-nav__link">Гостиницы</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="" class="main-nav__link">Карта штата</a>
-          </li>
-        </ul>
-      </nav>
+<body>
+  <div class="container">
+    <header class="header">
       <div class="intro">
-        <img src="img/header_bg.jpg">
-
-        <h1 class="main-heading"></h1>
+        <nav class="main-nav clearfix">
+          <a href="index.html">
+            <img class="header__logo" src="img/header_logo.png" alt="Sedona" width="138" height="70">
+          </a>
+          <ul class="main-nav__list clearfix">
+            <li class="main-nav__item">
+              <a class="main-nav__link">Информация</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Фото и видео</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Карта штата</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="hotels.html" class="main-nav__link">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-
     </header>
     <section class="features clearfix">
       <h2 class="features__title">
@@ -44,145 +41,145 @@
         Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
       </p>
 
-      <section class="features__item features__item--town">
-          <div class="features__descr features-descr--blue">
-            <h3 class="features__item-heading">
-              Настоящий городок
-            </h3>
-            <span class="features__number">— №1 —</span>
-            <p class="features__item-subtitle">
-              Седона - не аттракцион для туристов, там течет своя жизнь
-            </p>
-          </div>
-          <div class="features__img">
-            <img class="advatages__img" src="img/town.jpg" alt="Sedona Town"  width="800" height="255">
-
-          </div>
-        </section>
-        <section class="features__item features__item--living">
-          <h3 class="features__item-heading">
-            Жилье
-          </h3>
-          <p class="features__item-subtitle">
-            Рекомендуем пожить в настоящем мотеле, все как в кино!
-          </p>
-        </section>
-        <section class="features__item features__item--food">
-          <h3 class="features__item-heading">
-            Еда
-          </h3>
-          <p class="features__item-subtitle">
-            Всегда заказывайте фирменный бургер, вы не разочаруетесь!
-          </p>
-        </section>
-        <section class="features__item features__item--souvenirs">
-          <h3 class="features__item-heading">
-            Сувениры
-          </h3>
-          <p class="features__item-subtitle">
-            Не только китайского, но и местного производства!
-          </p>
-        </section>
-        <section class="features__item">
-          <div class="features__img">
-            <img class="advatages__img" src="img/devils_bridge.jpg" alt="Devil's Bridge"  width="800" height="255">
-
-          </div>
-          <div class="features__descr">
-
-          <h3 class="features__item-heading">
-            Там есть мост дьявола!
-          </h3>
-          <span class="features__number">— №2 —</span>
-          <p class="features__item-subtitle">
-            Да, по нему можно пройти! Если конечно осмелитесь
+      <section class="features__item clearfix">
+        <div class="features__box">
+          <h3 class="features__name">Настоящий<br> городок</h3>
+          <span class="features__number">— №1 —</span>
+          <p class="features__description">
+            Седона - не аттракцион для туристов,<br> там течет своя жизнь
           </p>
         </div>
-        </section>
-        <section class="features__item features__item--area">
-          <h3 class="features__item-heading">
-            Небольшая площадь
-          </h3>
+        <div class="features__img features__img--right">
+          <img src="img/town.jpg" alt="Sedona Town" width="800" height="256">
+        </div>
+      </section>
+      <section class="features__item clearfix">
+        <div class="features__box features__box--living">
+          <h3 class="features__name">Жилье</h3>
+          <p class="features__description">
+            Рекомендуем пожить в настоящем<br> мотеле, все как в кино!
+          </p>
+        </div>
+        <div class="features__box features__box--food">
+          <h3 class="features__name">Еда</h3>
+          <p class="features__description">
+            Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь
+          </p>
+        </div>
+        <div class="features__box features__box--right features__box--souvenirs">
+          <h3 class="features__name">Сувениры</h3>
+          <p class="features__description">
+            Не только китайского, но и местного<br> производства
+          </p>
+        </div>
+      </section>
+      <section class="features__item clearfix">
+        <div class="features__box features__box--right">
+          <h3 class="features__name">Там есть<br> мост дьявола</h3>
+          <span class="features__number">— №2 —</span>
+          <p class="features__description">
+            Да, по нему можно пройти! Если конечно<br> вы осмелитесь
+          </p>
+        </div>
+        <div class="features__img features__img--left">
+          <img src="img/devils_bridge.jpg" alt="Sedona Town" width="800">
+        </div>
+      </section>
+      <section class="features__item clearfix">
+        <div class="features__box features__box--area">
+          <h3 class="features__name">Небольшая<br> площадь</h3>
           <span class="features__number">— №3 —</span>
-          <p class="features__item-subtitle">
-            Все достопримечательности находятся очень близко
+          <p class="features__description">
+            Все достопримечательности<br> находятся очень близко
           </p>
-        </section>
-        <section class="features__item features__item--road">
-          <h3 class="features__item-heading">
-            Красивая дорога
-          </h3>
+        </div>
+        <div class="features__box features__box--road">
+          <h3 class="features__name">Красивая<br> дорога</h3>
           <span class="features__number">— №4 —</span>
-          <p class="features__item-subtitle">
-            Ехать в Седону из Лас-Вегаса совсем не скучно!
+          <p class="features__description">
+            Ехать в Седону из Лас-Вегаса совсем<br> не скучно!
           </p>
-        </section>
-        <section class="features__item features__item--tourists">
-          <h3 class="features__item-heading">
-            Мало туристов
-          </h3>
+        </div>
+        <div class="features__box features__box--tourists">
+          <h3 class="features__name">Мало<br> туристов</h3>
           <span class="features__number">— №5 —</span>
-          <p class="features__item-subtitle">
-            Большинство едет в Гранд Каньон и толпится там
+          <p class="features__description">
+            Большинство едет в Гранд-Каньон и<br> толпится там
           </p>
-        </section>
-
+        </div>
+      </section>
     </section>
     <section class="booking">
       <h2 class="booking__title">
         Заинтересовались?
       </h2>
       <p class="booking__subtitle">
-        Укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне
+        Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
-
-      <section class="booking-window">
-        <h3 class="booking-form__heading">Поиск гостиницы в Седоне</h3>
-
-        <form class="booking-form" action="GET">
-
-          <div class="booking-form__checkin-input">
-            <label for="checkin" class="booking-form__checkin-label">Дата заезда:</label>
-            <input id="checkin" type="date" class="booking-form__checkin-field">
-          </div>
-
-            <label for="checkout">Дата выезда:</label>
-            <label for="adults">Взрослые:</label>
-            <label for="children">Дети:</label>
-
-
-
-
-            <input id="checkout" type="date" class="booking-form__checkout-field">
-
-            <input id="adults">
-
-            <input id="children">
-
-
-
-          <button type="submit" class="booking-form__button">Найти</button>
-
-        </form>
-      </section>
-    </section><!--booking-->
-    <section class="map">
-      <img src="img/map.jpg">
-      <footer class="footer">
-        <a href="#" class="footer__link" target="_blank">#visitsedona</a>
-        <div class="social">
-          <a href="#" class="social__btn social__btn--tw">tw</a>
-          <a href="#" class="social__btn social__btn--fb">fb</a>
-          <a href="#" class="social__btn social__btn--yt">yt</a>
-        </div>
-        <div class="footer__logo">
-          <span>Website by</span>
-          <img class="logo" src="http://placehold.it/115x42" alt="Website by HTML Academy">
-        </div>
-      </footer>
-
+      <button class="booking__button" type="submit">Поиск гостиницы в Седоне</button>
     </section>
+    <div class="map">
+      <img src="img/map.jpg"  alt="map" width="1200" height="593">
 
+      <form class="booking-form booking-form--hide" action="GET">
+        <fieldset class="booking-form__checkin">
+          <label class="booking-form__checkin-label" for="checkin">Дата заезда:</label>
+          <input class="booking-form__checkin-input" id="checkin" type="text" placeholder="24 апреля 2016">
+          <span class="icon-calendar"></span>
+        </fieldset>
+        <fieldset class="booking-form__checkout clearfix">
+          <label class="booking-form__checkout-label" for="checkout">Дата выезда:</label>
+          <input class="booking-form__checkout-input" id="checkout" type="text" placeholder="4 июля 2016">
+          <span class="icon-calendar"></span>
+
+        </fieldset>
+        <fieldset class="booking-form__guests">
+          <div class="counter counter--adults">
+            <label class="counter__label counter__label--adults" for="counter__adults">Взрослые:</label>
+            <button class="counter__minus icon-minus"></button>
+            <input class="counter__input" type="text" name="counter__adults" id="counter__adults" value="2">
+            <button class="counter__plus icon-plus"></button>
+          </div>
+          <div class="counter counter--children">
+            <label class="counter__label counter__label--children" for="counter__children">Дети:</label>
+            <button class="counter__minus icon-minus"></button>
+            <input class="counter__input" type="text" name="counter__children" id="counter__children" value="2">
+            <button class="counter__plus icon-plus"></button>
+          </div>
+        </fieldset>
+        <button type="submit" class="booking-form__button">Найти</button>
+      </form>
+    </div>
+    <footer class="footer footer--index clearfix">
+      <div class="footer__link">
+        <a href="#" target="_blank">#visitsedona</a>
+      </div>
+      <div class="social">
+        <a href="#" class="social__btn social__btn--tw icon-twitter"></a>
+        <a href="#" class="social__btn social__btn--fb icon-facebook"></a>
+        <a href="#" class="social__btn social__btn--yt icon-youtube"></a>
+      </div>
+      <div class="footer__logo">
+        <span>Website by</span>
+        <a href="http://www.htmlacademy.ru">
+          <div class="logo"></div>
+        </a>
+      </div>
+    </footer>
   </div>
-  </body>
+
+  <script type="text/javascript">
+
+    //Toggles booking form window by pressing button "Поиск гостиниц в Седоне"
+
+    var bookingButton = document.querySelector(".booking__button");
+    var bookingForm = document.querySelector(".booking-form");
+
+    bookingButton.addEventListener("click", function(event) {
+      event.preventDefault();
+      bookingForm.classList.toggle("booking-form--hide");
+    })
+  </script>
+</body>
+
 </html>
