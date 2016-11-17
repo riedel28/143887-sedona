@@ -1,0 +1,197 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-burger_icon {
+    width: 74px;
+    height: 70px;
+    background-position: -10px -10px;
+}
+
+.sprite-gift_icon {
+    width: 64px;
+    height: 76px;
+    background-position: -10px -100px;
+}
+
+.sprite-house_icon {
+    width: 75px;
+    height: 72px;
+    background-position: -10px -196px;
+}
+
+.sprite-icon-arrow-down {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -288px;
+}
+
+.sprite-icon-arrow-down--focus {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -318px;
+}
+
+.sprite-icon-arrow-down--hover {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -348px;
+}
+
+.sprite-icon-arrow-up {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -378px;
+}
+
+.sprite-icon-arrow-up--focus {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -408px;
+}
+
+.sprite-icon-arrow-up--hover {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -438px;
+}
+
+.sprite-icon-calendar {
+    width: 21px;
+    height: 22px;
+    background-position: -10px -468px;
+}
+
+.sprite-icon-calendar--focus {
+    width: 21px;
+    height: 22px;
+    background-position: -10px -510px;
+}
+
+.sprite-icon-calendar--hover {
+    width: 21px;
+    height: 22px;
+    background-position: -10px -552px;
+}
+
+.sprite-icon-checkbox-checked {
+    width: 26px;
+    height: 22px;
+    background-position: -10px -594px;
+}
+
+.sprite-icon-checkbox-checked--disabled {
+    width: 26px;
+    height: 22px;
+    background-position: -10px -636px;
+}
+
+.sprite-icon-checkbox-unchecked {
+    width: 22px;
+    height: 22px;
+    background-position: -10px -678px;
+}
+
+.sprite-icon-checkbox-unchecked--disabled {
+    width: 22px;
+    height: 22px;
+    background-position: -10px -720px;
+}
+
+.sprite-icon-fb {
+    width: 10px;
+    height: 19px;
+    background-position: -10px -762px;
+}
+
+.sprite-icon-fb--focus {
+    width: 10px;
+    height: 19px;
+    background-position: -10px -801px;
+}
+
+.sprite-icon-minus {
+    width: 12px;
+    height: 3px;
+    background-position: -10px -840px;
+}
+
+.sprite-icon-minus--focus {
+    width: 12px;
+    height: 3px;
+    background-position: -10px -863px;
+}
+
+.sprite-icon-minus--hover {
+    width: 12px;
+    height: 3px;
+    background-position: -10px -886px;
+}
+
+.sprite-icon-plus {
+    width: 11px;
+    height: 11px;
+    background-position: -10px -909px;
+}
+
+.sprite-icon-plus--focus {
+    width: 11px;
+    height: 11px;
+    background-position: -10px -940px;
+}
+
+.sprite-icon-plus--hover {
+    width: 11px;
+    height: 11px;
+    background-position: -10px -971px;
+}
+
+.sprite-icon-star--blue {
+    width: 18px;
+    height: 17px;
+    background-position: -10px -1002px;
+}
+
+.sprite-icon-tw {
+    width: 17px;
+    height: 15px;
+    background-position: -10px -1039px;
+}
+
+.sprite-icon-tw--focus {
+    width: 17px;
+    height: 15px;
+    background-position: -10px -1074px;
+}
+
+.sprite-icon-yt {
+    width: 20px;
+    height: 16px;
+    background-position: -10px -1109px;
+}
+
+.sprite-icon-yt--focus {
+    width: 20px;
+    height: 16px;
+    background-position: -10px -1145px;
+}
+
+.sprite-logo {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -1181px;
+}
+
+.sprite-logo--focus {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -1240px;
+}
+
+.sprite-logo--hover {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -1299px;
+}
